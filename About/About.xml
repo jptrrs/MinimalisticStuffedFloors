@@ -15,9 +15,6 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/853043503</steamWorkshopUrl>
     </li>
   </modDependencies>
-	<loadAfter>
-		<li>fluffy.stuffedfloors</li>
-	</loadAfter>
   <description>
 Removes all the clutter from Fluffy's Stuffed Floors, leaving just the two vanilla floors that were really lacking: the wood floor (to use with Expanded Woodworking) and the metal tiles (grouped into one icon and enabled for modded metals). Both keep their vanilla stats and textures.
 

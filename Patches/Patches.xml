@@ -34,6 +34,9 @@
 					</tags>
 				</value>
 			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]/costList</xpath>
+			</li>
 			<li Class="PatchOperationSetName">
 				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
 				<name>StuffedFloors.FloorTypeDef</name>
