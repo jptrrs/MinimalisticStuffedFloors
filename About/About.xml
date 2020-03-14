@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[JPT] Minimalistic Stuffed Floors</name>
+  <author>jptrrs</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>JPT.MinimalisticStuffedFloors</packageId>
+  <modDependencies>
+    <li>
+	  <packageId>fluffy.stuffedfloors</packageId>
+      <displayName>Stuffed Floors</displayName>
+	  <downloadUrl>https://ludeon.com/forums/index.php?topic=16120</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/853043503</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+	<loadAfter>
+		<li>fluffy.stuffedfloors</li>
+	</loadAfter>
+  <description>
+Removes all the clutter from Fluffy's Stuffed Floors, leaving just the two vanilla floors that were really lacking: the wood floor (to use with Expanded Woodworking) and the metal tiles (grouped into one icon and enabled for modded metals). Both keep their vanilla stats and textures.
+
+WARNING: Adding this to a saved game that already uses tiles from the regular Stuffed Floors will result in errors and those tiles will be deleted. I recommend removing those first. Other than that, this is perfectly save compatible.
+  </description>
+</ModMetaData>

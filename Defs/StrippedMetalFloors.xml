@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StuffedFloors.FloorTypeDef Name="StuffedFloorsMetalBase" ParentName="StuffedFloorsBase" Abstract="True">
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<stuffCost>5</stuffCost>
+    </StuffedFloors.FloorTypeDef>
+
+<!--    <StuffedFloors.FloorTypeDef Name="StuffedFloorsMetalBasicBase" ParentName="StuffedFloorsMetalBase" Abstract="True">
+        <statBases>
+            <Beauty>0</Beauty>
+            <WorkToBuild>400</WorkToBuild>
+        </statBases>
+        <stuffCost>3</stuffCost>
+        
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedFloorsMetalPrettyBase" ParentName="StuffedFloorsMetalBase" Abstract="True">
+        <statBases>
+            <Beauty>2</Beauty>
+            <WorkToBuild>800</WorkToBuild>
+        </statBases>
+        <stuffCost>5</stuffCost>
+    </StuffedFloors.FloorTypeDef>-->
+
+    <!-- Vanilla -->
+    <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsMetalBase">
+      <defName>StuffedFloorsMetalPlate</defName>
+      <label>metal plates</label>
+      <description>A generic metal flooring.</description>
+        <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+        <!-- this is the vanilla tile texture, quie a few obsoletions -->
+        <obsoletes>
+            <!-- vanilla -->
+            <li>MetalTile</li>
+            <li>SilverTile</li>
+            <li>GoldTile</li>
+            <!-- <li>SterileTile</li> -->
+
+            <!-- Floored -->
+            <li>PlasteelTile</li>
+
+            <!-- Glitter Tech -->
+            <li>TitatiumTile</li>
+            <li>AlphaTile</li>
+            <li>BetaTile</li>
+			
+			<!--Industrialization (my add)-->
+			<li>Ind_CopperTile</li>
+
+        </obsoletes>
+    </StuffedFloors.FloorTypeDef>
+
+</Defs>

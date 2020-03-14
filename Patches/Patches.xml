@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>//StuffedFloors.FloorTypeDef[not(@Abstract="True") and not(defName="StuffedFloorsMetalPlate")]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+				<value>
+					<layerable>true</layerable>
+					<affordances>
+						<li>Light</li>
+						<li>Medium</li>
+						<li>Heavy</li>
+					</affordances>
+					<fertility>0</fertility>
+					<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+					<statsAffectedByStuff>
+						<li>WorkToBuild</li>
+						<li>Beauty</li>
+						<li>Cleanliness</li>
+						<li>MarketValue</li>
+						<li>Flammability</li>
+					</statsAffectedByStuff>
+					<stuffCategories>
+						<li>Woody</li>
+					</stuffCategories>
+					<stuffCost>3</stuffCost>
+					<tags>
+						<li>Floor</li>
+					</tags>
+				</value>
+			</li>
+			<li Class="PatchOperationSetName">
+				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+				<name>StuffedFloors.FloorTypeDef</name>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
