@@ -5,7 +5,7 @@
 		<success>Normal</success>
 		<operations>
 			<li Class="PatchOperationRemove">
-				<xpath>//StuffedFloors.FloorTypeDef[not(@Abstract="True") and not(defName="StuffedFloorsMetalPlate")]</xpath>
+				<xpath>//StuffedFloors.FloorTypeDef[not(@Abstract="True") and not(defName="StuffedFloorsMetalPlate") and not(defName="StuffedBridge")]</xpath>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
