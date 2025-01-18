@@ -8,7 +8,9 @@
 				<xpath>
           //StuffedFloors.FloorTypeDef[not(@Abstract="True") and not(defName="StuffedFloorsMetalPlate") and not(defName="StuffedBridge")
           and not(@ParentName="StuffedCarpetBase") and not(@ParentName="StuffedCarpetBasicBase") and not(@ParentName="StuffedCarpetPrettyBase")
-          and not(@ParentName="StuffedLeatherBase") and not(@ParentName="StuffedLeatherBasicBase") and not(@ParentName="StuffedLeatherPrettyBase")]</xpath>
+          and not(@ParentName="StuffedLeatherBase") and not(@ParentName="StuffedLeatherBasicBase") and not(@ParentName="StuffedLeatherPrettyBase")
+		  and not(@ParentName="StuffedFloorsWoodRoyalBase") and not(@ParentName="StuffedFloorsStoneRoyalBase") and not(@ParentName="StuffedFloorsStoneMetalBase") 
+		  and not(@ParentName="StuffedFloorsWoodIdeologyBase") and not(@ParentName="StuffedFloorsStoneIdeologyBase") and not(@ParentName="StuffedFloorsMetalIdeologyBase")]</xpath>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
